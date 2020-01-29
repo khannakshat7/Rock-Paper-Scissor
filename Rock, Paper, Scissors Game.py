@@ -2,6 +2,8 @@ import random, time
 
 def rockPaperScissors():
     computerOptions = ['R', 'P', 'S']
+
+    
     computer = computerOptions[random.randint(0, 2)]
 
     forOptions = {'R': 'Rock', 'P': 'Paper', 'S':'Scissors'}
